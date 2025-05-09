@@ -1,18 +1,15 @@
 {
-  "name": "techup-sample-blog",
+  "name": "Food-Redistribution-Webappapp",
   "version": "1.0.0",
-  "description": "Sample Blog webapp for TechUp",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^5.11.0",
-    "dotenv": "^16.4.5",
-    "ejs": "^3.1.9",
-    "express": "^4.19.1"
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "socket.io": "^4.7.2"
   }
 }
